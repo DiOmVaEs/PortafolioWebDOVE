@@ -5,7 +5,7 @@
 	background-color: white;
 	font-family: 'Comfortaa', cursive;
 	font-family: 'Ubuntu', sans-serif;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 header{
@@ -30,11 +30,12 @@ header{
 }
 
 #principal, #socialnetworks{
-	width: 100%;
+	width: auto center;
   	background-color: white;
   	text-align: center;
   	border: 1px solid #426CB4;
   	padding: 1px;
+  	margin: 10px;
 }
 
 footer{
@@ -54,6 +55,25 @@ a{
 .Contact{
 	display: inline-block;
 	text-align: center;
-	width: 20%; height: 120px;
+	width: 20%; height: 180px;
 	margin: 10px; padding: 10px;
+}
+
+.r{
+	display: inline-flex;
+	align-items: center;
+	vertical-align: top;
+	width: 35%;
+	height: 250px;
+}
+.l{
+	display: inline-block;
+	margin-top: 15px;
+	text-align: center;
+	width: 35%;
+	height: 250px;
+}
+
+#profileimage{
+	border-radius: 50%;
 }
